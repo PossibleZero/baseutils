@@ -2,5 +2,6 @@
 <resources>
     <string-array name="main_titile_name">
         <item>关于recyview</item>
+        <item>处理更多类型的recyview</item>
     </string-array>
 </resources>

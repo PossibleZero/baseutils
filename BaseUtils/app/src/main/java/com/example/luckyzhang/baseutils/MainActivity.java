@@ -8,7 +8,8 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.SimpleAdapter;
 
-import com.example.luckyzhang.baseutils.ui.RecyclerViewActivity;
+import com.example.luckyzhang.baseutils.ui.activity.MutifyRecyclerActivity;
+import com.example.luckyzhang.baseutils.ui.activity.RecyclerViewActivity;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private List<Map<String, Object>> datas;
     private Map<String, Object> maps;
 
-    private Object[] strs = {RecyclerViewActivity.class};
+    private Object[] strs = {RecyclerViewActivity.class, MutifyRecyclerActivity.class};
     private String[] titleNames;
 
     @Override

@@ -1,4 +1,4 @@
-package com.example.luckyzhang.baseutils.ui;
+package com.example.luckyzhang.baseutils.ui.activity;
 
 import android.os.Bundle;
 import android.os.Handler;

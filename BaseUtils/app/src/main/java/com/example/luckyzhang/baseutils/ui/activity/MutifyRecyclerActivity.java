@@ -51,6 +51,13 @@ public class MutifyRecyclerActivity extends AppCompatActivity implements View.On
 
                 break;
             case R.id.type2_btn:
+                FragmentTransaction ft2 = supportFragmentManager.beginTransaction();
+                if (simpleTyp2Fragment.isAdded()) {
+                    ft2.hide(mutifyTyp1Fragment).show(simpleTyp2Fragment).commitAllowingStateLoss();
+                } else {
+                    ft2.hide(mutifyTyp1Fragment).add(R.id.content_framelayout, simpleTyp2Fragment).commitAllowingStateLoss();
+                }
+
                 break;
         }
     }

@@ -21,6 +21,7 @@ import java.util.Map;
 
 /**
  * Created by luckyzhang on 2017/4/20.
+ * 混合的多种数据模型进行设置
  */
 
 public class MutifyTypeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {

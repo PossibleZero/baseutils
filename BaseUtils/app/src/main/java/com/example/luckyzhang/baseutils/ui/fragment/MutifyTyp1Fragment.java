@@ -15,7 +15,7 @@ import com.example.luckyzhang.baseutils.recyclerview.MutifyTypeAdapter;
 import com.example.luckyzhang.baseutils.recyclerview.mutify.ItemTypeOne;
 import com.example.luckyzhang.baseutils.recyclerview.mutify.ItemTypeThree;
 import com.example.luckyzhang.baseutils.recyclerview.mutify.ItemTypeTwo;
-import com.example.utils.recylerview.OnLoadMoreListener;
+import com.example.utils.recylerview.recyler.OnLoadMoreListener;
 
 import java.util.ArrayList;
 import java.util.List;

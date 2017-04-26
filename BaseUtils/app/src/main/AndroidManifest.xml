@@ -16,7 +16,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.activity.RecyclerViewActivity" />
-        <activity android:name=".ui.activity.MutifyRecyclerActivity"></activity>
+        <activity android:name=".ui.activity.MutifyRecyclerActivity" />
+        <activity
+            android:name=".recyclerview.mvp.base.ui.MvpTestActivity"
+            android:label="@string/title_activity_mvp_test"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -3,7 +3,7 @@ package com.example.luckyzhang.baseutils.recyclerview.mvp.base.utils;
 import java.util.ArrayList;
 
 /**
- * Created by baixiaokang on 16/6/21.
+ * Created by luckyzhang on 16/6/21.
  */
 public class BaseManager {
     public ArrayList<Integer> mRequestTasks;

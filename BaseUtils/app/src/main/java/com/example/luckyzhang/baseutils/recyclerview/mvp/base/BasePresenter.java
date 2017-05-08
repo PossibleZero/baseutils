@@ -10,7 +10,7 @@ import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
 
 /**
- * Created by baixiaokang on 16/6/20.
+ * Created by luckyzhang on 16/6/20.
  */
 public abstract class BasePresenter<V, M> {
     public M mModel;

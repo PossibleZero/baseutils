@@ -4,5 +4,6 @@
         <item>关于recyview</item>
         <item>处理更多类型的recyview</item>
         <item>mvp测试</item>
+        <item>retrofit测试</item>
     </string-array>
 </resources>

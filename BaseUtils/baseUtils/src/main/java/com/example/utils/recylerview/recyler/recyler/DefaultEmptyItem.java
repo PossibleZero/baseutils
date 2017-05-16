@@ -1,4 +1,4 @@
-package com.example.utils.recylerview.recyler;
+package com.example.utils.recylerview.recyler.recyler;
 
 import android.text.TextUtils;
 import android.view.LayoutInflater;

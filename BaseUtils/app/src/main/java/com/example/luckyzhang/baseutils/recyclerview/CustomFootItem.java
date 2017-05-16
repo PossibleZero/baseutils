@@ -5,8 +5,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.luckyzhang.baseutils.R;
-import com.example.utils.recylerview.recyler.FootItem;
-import com.example.utils.recylerview.recyler.RecyclerViewWithFooter;
+import com.example.utils.recylerview.recyler.recyler.FootItem;
+import com.example.utils.recylerview.recyler.recyler.RecyclerViewWithFooter;
 
 /**
  * Created by cjj on 2016/2/1.

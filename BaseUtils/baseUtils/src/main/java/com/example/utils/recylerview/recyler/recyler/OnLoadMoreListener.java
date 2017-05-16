@@ -1,4 +1,4 @@
-package com.example.utils.recylerview.recyler;
+package com.example.utils.recylerview.recyler.recyler;
 
 /**
  * Load more interface

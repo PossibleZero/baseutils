@@ -9,9 +9,9 @@ import android.view.MenuItem;
 
 import com.example.luckyzhang.baseutils.R;
 import com.example.luckyzhang.baseutils.recyclerview.DemoRvAdapter;
-import com.example.utils.recylerview.recyler.DefaultFootItem;
-import com.example.utils.recylerview.recyler.OnLoadMoreListener;
-import com.example.utils.recylerview.recyler.RecyclerViewWithFooter;
+import com.example.utils.recylerview.recyler.recyler.DefaultFootItem;
+import com.example.utils.recylerview.recyler.recyler.OnLoadMoreListener;
+import com.example.utils.recylerview.recyler.recyler.RecyclerViewWithFooter;
 
 import java.util.ArrayList;
 import java.util.List;

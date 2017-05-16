@@ -1,4 +1,4 @@
-package com.example.utils.recylerview.recyler;
+package com.example.utils.recylerview.recyler.recyler;
 
 import android.content.Context;
 import android.text.TextUtils;

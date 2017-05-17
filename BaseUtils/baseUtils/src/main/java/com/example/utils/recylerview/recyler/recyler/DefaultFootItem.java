@@ -11,7 +11,7 @@ import android.widget.TextView;
 import com.example.utils.R;
 
 /**
- * @author cjj
+ * @author luckyzhang
  */
 public class DefaultFootItem extends FootItem {
 

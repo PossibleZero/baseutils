@@ -6,7 +6,7 @@ import android.view.ViewGroup;
 /**
  * Footer item
  *
- * @author cjj on 2016/1/30.
+ * @author luckyzhang on 2016/1/30.
  */
 public abstract class FootItem {
 

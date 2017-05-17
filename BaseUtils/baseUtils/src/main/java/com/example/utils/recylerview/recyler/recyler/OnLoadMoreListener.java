@@ -3,7 +3,7 @@ package com.example.utils.recylerview.recyler.recyler;
 /**
  * Load more interface
  *
- * @author cjj
+ * @author luckyzhang
  */
 public interface OnLoadMoreListener {
     void onLoadMore();

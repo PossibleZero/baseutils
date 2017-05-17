@@ -9,7 +9,7 @@ import com.example.utils.recylerview.recyler.recyler.FootItem;
 import com.example.utils.recylerview.recyler.recyler.RecyclerViewWithFooter;
 
 /**
- * Created by cjj on 2016/2/1.
+ * Created by luckyzhang on 2016/2/1.
  */
 public class CustomFootItem extends FootItem {
 

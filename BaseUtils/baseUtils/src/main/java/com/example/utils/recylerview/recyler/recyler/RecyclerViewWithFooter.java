@@ -19,7 +19,7 @@ import java.lang.annotation.RetentionPolicy;
 /**
  * A {@link RecyclerView} with footer which enables load more.
  *
- * @author cjj
+ * @author luckyzhang
  */
 public class RecyclerViewWithFooter extends RecyclerView {
 

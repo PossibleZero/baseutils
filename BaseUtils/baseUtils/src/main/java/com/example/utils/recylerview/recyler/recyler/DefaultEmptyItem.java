@@ -12,7 +12,7 @@ import com.example.utils.R;
 /**
  * 默认的空数据视图
  *
- * @author cjj on 16/1/31.
+ * @author luckyzhang on 16/1/31.
  */
 public class DefaultEmptyItem extends EmptyItem {
 

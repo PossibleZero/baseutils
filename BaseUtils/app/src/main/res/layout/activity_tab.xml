@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.utils.recylerview.recyler.frame.LibFragmentTabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- 这里是tab选项卡的内容 ，宽度要填满，高度自动适应 -->
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" />
+
+        <!-- tabhost上面一条黑色分割 @drawable/line_shop -->
+        <View
+            android:id="@+id/view_2"
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dip"
+            android:background="#cccccc" />
+
+        <!-- 调换framelayout和tabwidget的前后顺序可以分别实现tab的top和在底下的效果 -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="49dp"
+                android:background="@color/white" />
+
+            <ImageView
+                android:id="@+id/pub_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@null"
+                android:src="@drawable/icon_pub_sel" />
+        </FrameLayout>
+    </LinearLayout>
+</com.example.utils.recylerview.recyler.frame.LibFragmentTabHost>

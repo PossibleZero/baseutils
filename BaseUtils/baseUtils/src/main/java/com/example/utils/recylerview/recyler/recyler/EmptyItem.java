@@ -6,7 +6,7 @@ import android.view.ViewGroup;
 /**
  * 没数据时候的默认View
  *
- * @author zzz40500 on 16/1/31.
+ * @author luckyzhang on 16/1/31.
  */
 public abstract class EmptyItem {
 

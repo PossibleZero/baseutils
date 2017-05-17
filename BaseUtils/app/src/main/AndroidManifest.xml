@@ -25,7 +25,9 @@
             android:name=".recyclerview.mvp.base.ui.MvpTestActivity"
             android:label="@string/title_activity_mvp_test"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".retrofit.utils.retrofit.ui.RetrofitActivity"></activity>
+        <activity android:name=".retrofit.ui.RetrofitActivity" />
+        <activity android:name=".frame.FrameActivity" />
+        <activity android:name=".frame.tabactivity.TabActivity"></activity>
     </application>
 
 </manifest>

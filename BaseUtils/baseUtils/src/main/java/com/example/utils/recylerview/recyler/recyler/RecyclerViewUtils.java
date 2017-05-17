@@ -9,7 +9,7 @@ import android.util.Log;
 /**
  * 设置rv manager 类型
  *
- * @author cjj
+ * @author luckyzhang
  */
 class RecyclerViewUtils {
 

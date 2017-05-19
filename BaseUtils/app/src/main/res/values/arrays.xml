@@ -6,5 +6,6 @@
         <item>mvp测试</item>
         <item>retrofit测试</item>
         <item>项目样式框架</item>
+        <item>数据库操作</item>
     </string-array>
 </resources>

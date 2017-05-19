@@ -2,6 +2,8 @@ package com.example.luckyzhang.baseutils;
 
 import android.app.Application;
 
+import com.example.luckyzhang.baseutils.database.db.DBManager;
+import com.example.luckyzhang.baseutils.database.db.TeacherDBManager;
 import com.example.luckyzhang.baseutils.retrofit.utils.RetrofitUtils;
 
 /**
@@ -11,6 +13,7 @@ import com.example.luckyzhang.baseutils.retrofit.utils.RetrofitUtils;
 public class BaseApplication extends Application {
 
     private static BaseApplication application;
+
 
     public static BaseApplication getInstance() {
         if (application == null) {
@@ -24,6 +27,8 @@ public class BaseApplication extends Application {
         super.onCreate();
         application = this;
         RetrofitUtils.init();
+        DBManager.getInstance().init(this);
+        TeacherDBManager.getInstance().init(this);
     }
 
 }

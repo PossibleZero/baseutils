@@ -8,6 +8,7 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.SimpleAdapter;
 
+import com.example.luckyzhang.baseutils.database.DBActivity;
 import com.example.luckyzhang.baseutils.frame.FrameActivity;
 import com.example.luckyzhang.baseutils.recyclerview.mvp.base.ui.MvpTestActivity;
 import com.example.luckyzhang.baseutils.retrofit.ui.RetrofitActivity;
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private Map<String, Object> maps;
 
     private Object[] strs = {RecyclerViewActivity.class, MutifyRecyclerActivity.class, MvpTestActivity.class, RetrofitActivity.class,
-            FrameActivity.class};
+            FrameActivity.class, DBActivity.class};
     private String[] titleNames;
 
     @Override

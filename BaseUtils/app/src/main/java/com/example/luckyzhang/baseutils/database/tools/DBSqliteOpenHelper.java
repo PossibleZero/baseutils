@@ -24,7 +24,7 @@ public class DBSqliteOpenHelper extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME = "luckyzhang.db";
 
-    private static final int DATABASE_VERSION = V1_4; //当前发布的版本
+    private static final int DATABASE_VERSION = V1_3; //当前发布的版本
 
     private Context mContext;
 
@@ -56,6 +56,8 @@ public class DBSqliteOpenHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
 
         db.execSQL(DBManager.CREATE_TABLE_STUDENT);
+        db.execSQL(TeacherDBManager.CREATE_TABLE_TEACHER);
+
 
     }
 
@@ -65,6 +67,10 @@ public class DBSqliteOpenHelper extends SQLiteOpenHelper {
         if (oldVersion < newVersion) {
             if (oldVersion < 2) {
                 db.execSQL(TeacherDBManager.CREATE_TABLE_TEACHER);
+            }
+
+            if (oldVersion < 3) {
+                db.execSQL(TeacherDBManager.CHANGE_TABLE_STRUCT);
             }
         }
 

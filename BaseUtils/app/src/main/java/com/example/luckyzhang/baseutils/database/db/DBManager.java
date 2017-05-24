@@ -55,11 +55,11 @@ public class DBManager {
         openHelper = DBSqliteOpenHelper.getInstance(context);
     }
 
-    public void createTable() {
+    public synchronized void createTable() {
         openHelper.getWritableDatabase();
     }
 
-    public void insertTable() {
+    public synchronized void insertTable() {
         try {
             int i = 20;
             SQLiteDatabase writableDatabase = openHelper.getWritableDatabase();
@@ -75,7 +75,7 @@ public class DBManager {
 
     }
 
-    public void deleteById() {
+    public synchronized void deleteById() {
         try {
             SQLiteDatabase writableDatabase = openHelper.getWritableDatabase();
             writableDatabase.delete(TABLE_NAME, COLUMN_AGE + "=?", new String[]{"20"});
@@ -85,7 +85,7 @@ public class DBManager {
         }
     }
 
-    public void selectCount() {
+    public synchronized void selectCount() {
         Cursor cursor = null;
         try {
             SQLiteDatabase readableDatabase = openHelper.getReadableDatabase();
@@ -114,7 +114,7 @@ public class DBManager {
         }
     }
 
-    public void update() {
+    public synchronized void update() {
         try {
             SQLiteDatabase writableDatabase = openHelper.getWritableDatabase();
             ContentValues values = new ContentValues();

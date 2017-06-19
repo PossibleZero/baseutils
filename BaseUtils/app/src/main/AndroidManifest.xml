@@ -7,7 +7,6 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
-
     <application
         android:name=".BaseApplication"
         android:allowBackup="true"
@@ -31,7 +30,10 @@
         <activity android:name=".retrofit.ui.RetrofitActivity" />
         <activity android:name=".frame.FrameActivity" />
         <activity android:name=".frame.tabactivity.TabActivity" />
-        <activity android:name=".database.DBActivity"></activity>
+        <activity android:name=".database.DBActivity" />
+        <activity android:name=".ui.activity.AnimatorActivity" />
+        <activity android:name=".event.EventActivity" />
+        <activity android:name=".event.OutterInterActivity"></activity>
     </application>
 
 </manifest>

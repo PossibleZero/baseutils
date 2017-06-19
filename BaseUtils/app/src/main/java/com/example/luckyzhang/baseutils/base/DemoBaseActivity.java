@@ -30,6 +30,7 @@ public abstract class DemoBaseActivity extends AppCompatActivity implements Adap
         ArrayAdapter arrayAdapter = new ArrayAdapter(mContext, R.layout.item_listview, datas);
         activityList.setAdapter(arrayAdapter);
         activityList.setOnItemClickListener(this);
+
     }
 
     protected abstract String[] initDatas();

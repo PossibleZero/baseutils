@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_outter_inter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.luckyzhang.baseutils.widget.LinearScrollView
+        android:id="@+id/linearScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

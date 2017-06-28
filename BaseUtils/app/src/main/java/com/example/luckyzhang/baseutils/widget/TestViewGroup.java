@@ -1,10 +1,14 @@
 package com.example.luckyzhang.baseutils.widget;
 
 import android.content.Context;
+import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.ViewGroup;
+
+import com.example.luckyzhang.baseutils.R;
+import com.example.luckyzhang.baseutils.tools.LogUtils;
 
 /**
  * Created by luckyzhang on 2017/6/14.
@@ -13,6 +17,17 @@ import android.view.ViewGroup;
 public class TestViewGroup extends ViewGroup {
     public TestViewGroup(Context context, AttributeSet attrs) {
         super(context, attrs);
+        TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.test_view_style);
+        int viewColor = typedArray.getColor(R.styleable.test_view_style_viewColor, getResources().getColor(R.color.color_333333));
+        int viewWidth = typedArray.getInt(R.styleable.test_view_style_viewwidth, 11);
+        LogUtils.d("viewColor:" + viewColor + "  viewWidth:" + viewWidth);
+
+        typedArray.recycle();
+    }
+
+    public TestViewGroup(Context context, AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
+        context.obtainStyledAttributes(attrs,R.styleable.test_view_style,defStyleAttr,R.style.AppTheme);
     }
 
     @Override
@@ -39,7 +54,7 @@ public class TestViewGroup extends ViewGroup {
 
         switch (ev.getAction()) {
             case MotionEvent.ACTION_DOWN:
-                
+
                 break;
         }
 

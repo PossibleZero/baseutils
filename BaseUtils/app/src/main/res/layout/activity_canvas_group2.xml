@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_canvas_group2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.luckyzhang.baseutils.ui.activity.canvasActivity.CanvasGroup2Activity">
+
+    <com.example.luckyzhang.baseutils.widget.canvas.Draw2Group
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:paddingBottom="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingTop="12dp">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@color/color_ee524d"
+            android:text="text1" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="80dp"
+            android:background="@color/color_333333"
+            android:text="text2" />
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="80dp"
+            android:background="@color/colorAccent"
+            android:text="text3" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:background="@color/color_ee524d"
+            android:text="text4" />
+    </com.example.luckyzhang.baseutils.widget.canvas.Draw2Group>
+</RelativeLayout>

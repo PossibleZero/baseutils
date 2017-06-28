@@ -1,6 +1,7 @@
 package com.example.luckyzhang.baseutils.base;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.AdapterView;
@@ -34,6 +35,11 @@ public abstract class DemoBaseActivity extends AppCompatActivity implements Adap
     }
 
     protected abstract String[] initDatas();
+
+    public void goIntentActivity(Class<?> clazz) {
+        Intent intent = new Intent(mContext,clazz);
+        mContext.startActivity(intent);
+    }
 
 
 }

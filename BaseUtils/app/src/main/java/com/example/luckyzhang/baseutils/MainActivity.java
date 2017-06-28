@@ -13,6 +13,7 @@ import com.example.luckyzhang.baseutils.event.EventActivity;
 import com.example.luckyzhang.baseutils.frame.FrameActivity;
 import com.example.luckyzhang.baseutils.recyclerview.mvp.base.ui.MvpTestActivity;
 import com.example.luckyzhang.baseutils.retrofit.ui.RetrofitActivity;
+import com.example.luckyzhang.baseutils.ui.activity.CanvasActivity;
 import com.example.luckyzhang.baseutils.ui.activity.MutifyRecyclerActivity;
 import com.example.luckyzhang.baseutils.ui.activity.RecyclerViewActivity;
 
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private Map<String, Object> maps;
 
     private Object[] strs = {RecyclerViewActivity.class, MutifyRecyclerActivity.class, MvpTestActivity.class, RetrofitActivity.class,
-            FrameActivity.class, DBActivity.class,EventActivity.class};
+            FrameActivity.class, DBActivity.class,EventActivity.class, CanvasActivity.class};
     private String[] titleNames;
 
     @Override

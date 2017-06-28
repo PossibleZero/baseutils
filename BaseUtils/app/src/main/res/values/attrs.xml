@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="test_view_style">
+        <attr name="viewColor" format="color" />
+        <attr name="viewwidth" format="integer" />
+        <attr name="selectSex" format="enum">
+            <enum name="man" value="0" />
+            <enum name="women" value="1" />
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="code_view_styleable">
+        <attr name="codeNumber" format="integer" />
+        <attr name="codeColor" format="color" />
+    </declare-styleable>
+
+</resources>

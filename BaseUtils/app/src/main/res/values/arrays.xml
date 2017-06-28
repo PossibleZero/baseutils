@@ -8,5 +8,6 @@
         <item>项目样式框架</item>
         <item>数据库操作</item>
         <item>事件处理</item>
+        <item>canvas绘制</item>
     </string-array>
 </resources>

@@ -33,7 +33,21 @@
         <activity android:name=".database.DBActivity" />
         <activity android:name=".ui.activity.AnimatorActivity" />
         <activity android:name=".event.EventActivity" />
-        <activity android:name=".event.OutterInterActivity"></activity>
+        <activity android:name=".event.OutterInterActivity" />
+        <activity android:name=".ui.activity.CanvasActivity" />
+        <activity android:name=".ui.activity.canvasActivity.CavasLineActivity" />
+        <activity android:name=".ui.activity.canvasActivity.CavasPathActivity" />
+        <activity android:name=".ui.activity.canvasActivity.CavasRectActivity" />
+        <activity android:name=".ui.activity.canvasActivity.CanvasTextActivity" />
+        <activity android:name=".ui.activity.canvasActivity.CavasCodeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.activity.canvasActivity.CanvasGroup1Activity" />
+        <activity android:name=".ui.activity.canvasActivity.CanvasGroup2Activity"></activity>
     </application>
 
 </manifest>

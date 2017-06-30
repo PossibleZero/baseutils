@@ -47,7 +47,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.activity.canvasActivity.CanvasGroup1Activity" />
-        <activity android:name=".ui.activity.canvasActivity.CanvasGroup2Activity"></activity>
+        <activity android:name=".ui.activity.canvasActivity.CanvasGroup2Activity" />
+        <activity android:name=".ui.activity.eventActivity.Scroller1Activity" />
+        <activity android:name=".ui.activity.EventActivity" />
+        <activity android:name=".ui.activity.eventActivity.MultiLauncherActivity"></activity>
     </application>
 
 </manifest>

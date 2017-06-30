@@ -5,12 +5,14 @@ import android.view.View;
 import android.widget.AdapterView;
 
 import com.example.luckyzhang.baseutils.base.DemoBaseActivity;
+import com.example.luckyzhang.baseutils.ui.activity.eventActivity.MultiLauncherActivity;
+import com.example.luckyzhang.baseutils.ui.activity.eventActivity.Scroller1Activity;
 
 public class EventActivity extends DemoBaseActivity {
 
-    String[] datas = {"内部拦截", "外部拦截"};
+    String[] datas = {"内部拦截", "Scroller","多屏幕滑动"};
 
-    Object[] clazzes = {OutterInterActivity.class};
+    Object[] clazzes = {OutterInterActivity.class, Scroller1Activity.class, MultiLauncherActivity.class};
 
 
     @Override

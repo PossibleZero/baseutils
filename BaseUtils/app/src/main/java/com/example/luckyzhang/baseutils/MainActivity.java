@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private Map<String, Object> maps;
 
     private Object[] strs = {RecyclerViewActivity.class, MutifyRecyclerActivity.class, MvpTestActivity.class, RetrofitActivity.class,
-            FrameActivity.class, DBActivity.class,EventActivity.class, CanvasActivity.class};
+            FrameActivity.class, DBActivity.class, EventActivity.class, CanvasActivity.class};
     private String[] titleNames;
 
     @Override

@@ -32,8 +32,8 @@
         <activity android:name=".frame.tabactivity.TabActivity" />
         <activity android:name=".database.DBActivity" />
         <activity android:name=".ui.activity.AnimatorActivity" />
-        <activity android:name=".event.EventActivity" />
-        <activity android:name=".event.OutterInterActivity" />
+        <activity android:name=".ui.activity.event.EventActivity" />
+        <activity android:name=".ui.activity.event.OutterInterActivity" />
         <activity android:name=".ui.activity.CanvasActivity" />
         <activity android:name=".ui.activity.canvasActivity.CavasLineActivity" />
         <activity android:name=".ui.activity.canvasActivity.CavasPathActivity" />
@@ -51,7 +51,9 @@
         <activity android:name=".ui.activity.eventActivity.Scroller1Activity" />
         <activity android:name=".ui.activity.EventActivity" />
         <activity android:name=".ui.activity.eventActivity.MultiLauncherActivity" />
-        <activity android:name=".ui.activity.RadioBationTest"></activity>
+        <activity android:name=".ui.activity.RadioBationTest" />
+        <activity android:name=".ui.activity.annotation.AnnotationActivity" />
+        <activity android:name=".ui.activity.annotation.IntDefAnnotationActivity"></activity>
     </application>
 
 </manifest>

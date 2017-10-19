@@ -9,7 +9,7 @@ import android.widget.GridView;
 import android.widget.SimpleAdapter;
 
 import com.example.luckyzhang.baseutils.database.DBActivity;
-import com.example.luckyzhang.baseutils.event.EventActivity;
+import com.example.luckyzhang.baseutils.ui.activity.event.EventActivity;
 import com.example.luckyzhang.baseutils.frame.FrameActivity;
 import com.example.luckyzhang.baseutils.recyclerview.mvp.base.ui.MvpTestActivity;
 import com.example.luckyzhang.baseutils.retrofit.ui.RetrofitActivity;

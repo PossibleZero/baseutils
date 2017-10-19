@@ -1,4 +1,4 @@
-package com.example.luckyzhang.baseutils.event;
+package com.example.luckyzhang.baseutils.ui.activity.event;
 
 import android.content.Intent;
 import android.view.View;

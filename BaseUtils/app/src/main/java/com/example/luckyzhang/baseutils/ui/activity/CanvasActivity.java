@@ -15,10 +15,10 @@ import com.example.luckyzhang.baseutils.ui.activity.canvasActivity.CavasRectActi
 public class CanvasActivity extends DemoBaseActivity {
 
     String[] datas = new String[]{"line绘制", "path绘制", "rect绘制-采用双缓存", "text绘制", "code绘制",
-            "group绘制", "group高级绘制"};
+            "group绘制", "group高级绘制", "recyview复用"};
     Class<?>[] classDatas = new Class<?>[]{
             CavasLineActivity.class, CavasPathActivity.class, CavasRectActivity.class, CanvasTextActivity.class,
-            CavasCodeActivity.class, CanvasGroup1Activity.class, CanvasGroup2Activity.class};
+            CavasCodeActivity.class, CanvasGroup1Activity.class, CanvasGroup2Activity.class, RadioBationTest.class};
 
     @Override
     protected String[] initDatas() {

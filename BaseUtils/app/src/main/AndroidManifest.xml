@@ -50,7 +50,8 @@
         <activity android:name=".ui.activity.canvasActivity.CanvasGroup2Activity" />
         <activity android:name=".ui.activity.eventActivity.Scroller1Activity" />
         <activity android:name=".ui.activity.EventActivity" />
-        <activity android:name=".ui.activity.eventActivity.MultiLauncherActivity"></activity>
+        <activity android:name=".ui.activity.eventActivity.MultiLauncherActivity" />
+        <activity android:name=".ui.activity.RadioBationTest"></activity>
     </application>
 
 </manifest>

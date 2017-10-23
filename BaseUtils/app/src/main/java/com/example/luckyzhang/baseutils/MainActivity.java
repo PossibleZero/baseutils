@@ -9,13 +9,14 @@ import android.widget.GridView;
 import android.widget.SimpleAdapter;
 
 import com.example.luckyzhang.baseutils.database.DBActivity;
-import com.example.luckyzhang.baseutils.ui.activity.event.EventActivity;
 import com.example.luckyzhang.baseutils.frame.FrameActivity;
 import com.example.luckyzhang.baseutils.recyclerview.mvp.base.ui.MvpTestActivity;
 import com.example.luckyzhang.baseutils.retrofit.ui.RetrofitActivity;
 import com.example.luckyzhang.baseutils.ui.activity.CanvasActivity;
 import com.example.luckyzhang.baseutils.ui.activity.MutifyRecyclerActivity;
 import com.example.luckyzhang.baseutils.ui.activity.RecyclerViewActivity;
+import com.example.luckyzhang.baseutils.ui.activity.event.EventActivity;
+import com.example.luckyzhang.baseutils.ui.activity.newskills.SkillsActivity;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -28,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private Map<String, Object> maps;
 
     private Object[] strs = {RecyclerViewActivity.class, MutifyRecyclerActivity.class, MvpTestActivity.class, RetrofitActivity.class,
-            FrameActivity.class, DBActivity.class, EventActivity.class, CanvasActivity.class};
+            FrameActivity.class, DBActivity.class, EventActivity.class, CanvasActivity.class, SkillsActivity.class};
     private String[] titleNames;
 
     @Override

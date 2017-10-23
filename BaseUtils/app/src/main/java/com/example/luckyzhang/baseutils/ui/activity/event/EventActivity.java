@@ -30,6 +30,11 @@ public class EventActivity extends DemoBaseActivity {
 
     }
 
+    @Override
+    public Class<?>[] getClazzes() {
+        return (Class<?>[]) clazzes;
+    }
+
 
     private void goIntent(Class<?> clazz) {
         Intent intent = new Intent(EventActivity.this, clazz);

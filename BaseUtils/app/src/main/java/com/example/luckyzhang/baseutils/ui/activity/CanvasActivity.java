@@ -11,14 +11,15 @@ import com.example.luckyzhang.baseutils.ui.activity.canvasActivity.CavasCodeActi
 import com.example.luckyzhang.baseutils.ui.activity.canvasActivity.CavasLineActivity;
 import com.example.luckyzhang.baseutils.ui.activity.canvasActivity.CavasPathActivity;
 import com.example.luckyzhang.baseutils.ui.activity.canvasActivity.CavasRectActivity;
+import com.example.luckyzhang.baseutils.ui.activity.newskills.PagerActivity;
 
 public class CanvasActivity extends DemoBaseActivity {
 
     String[] datas = new String[]{"line绘制", "path绘制", "rect绘制-采用双缓存", "text绘制", "code绘制",
-            "group绘制", "group高级绘制", "recyview复用"};
+            "group绘制", "group高级绘制", "recyview复用", "PagerActivity"};
     Class<?>[] classDatas = new Class<?>[]{
             CavasLineActivity.class, CavasPathActivity.class, CavasRectActivity.class, CanvasTextActivity.class,
-            CavasCodeActivity.class, CanvasGroup1Activity.class, CanvasGroup2Activity.class, RadioBationTest.class};
+            CavasCodeActivity.class, CanvasGroup1Activity.class, CanvasGroup2Activity.class, RadioBationTest.class, PagerActivity.class};
 
     @Override
     protected String[] initDatas() {
@@ -33,6 +34,11 @@ public class CanvasActivity extends DemoBaseActivity {
         goIntentActivity(classDatas[position]);
 
 
+    }
+
+    @Override
+    public Class<?>[] getClazzes() {
+        return classDatas;
     }
 
 

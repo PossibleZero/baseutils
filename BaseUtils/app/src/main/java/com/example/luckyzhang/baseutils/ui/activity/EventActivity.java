@@ -24,4 +24,9 @@ public class EventActivity extends DemoBaseActivity {
         goIntentActivity(clazz[position]);
 
     }
+
+    @Override
+    public Class<?>[] getClazzes() {
+        return clazz;
+    }
 }

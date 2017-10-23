@@ -51,5 +51,10 @@ public class DBActivity extends DemoBaseActivity {
 
     }
 
+    @Override
+    public Class<?>[] getClazzes() {
+        return new Class<?>[0];
+    }
+
 
 }

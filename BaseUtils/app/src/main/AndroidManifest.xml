@@ -53,7 +53,9 @@
         <activity android:name=".ui.activity.eventActivity.MultiLauncherActivity" />
         <activity android:name=".ui.activity.RadioBationTest" />
         <activity android:name=".ui.activity.annotation.AnnotationActivity" />
-        <activity android:name=".ui.activity.annotation.IntDefAnnotationActivity"></activity>
+        <activity android:name=".ui.activity.annotation.IntDefAnnotationActivity" />
+        <activity android:name=".ui.activity.newskills.PagerActivity" />
+        <activity android:name=".ui.activity.newskills.SkillsActivity"></activity>
     </application>
 
 </manifest>

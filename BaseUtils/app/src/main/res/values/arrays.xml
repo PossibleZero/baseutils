@@ -9,5 +9,6 @@
         <item>数据库操作</item>
         <item>事件处理</item>
         <item>canvas绘制</item>
+        <item>一些特效</item>
     </string-array>
 </resources>

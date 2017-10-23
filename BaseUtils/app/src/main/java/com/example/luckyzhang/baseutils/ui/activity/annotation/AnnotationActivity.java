@@ -24,4 +24,9 @@ public class AnnotationActivity extends DemoBaseActivity {
         goIntentActivity(clazzes[position]);
 
     }
+
+    @Override
+    public Class<?>[] getClazzes() {
+        return clazzes;
+    }
 }

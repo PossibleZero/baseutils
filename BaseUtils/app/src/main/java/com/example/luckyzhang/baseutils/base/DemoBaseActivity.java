@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -20,6 +21,10 @@ public abstract class DemoBaseActivity extends AppCompatActivity implements Adap
 
     public Context mContext;
 
+    private String[] datas;
+
+    private Class<?>[] classDatas;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,17 +32,29 @@ public abstract class DemoBaseActivity extends AppCompatActivity implements Adap
         setContentView(R.layout.activity_demo_base);
 //        activityList = (ListView) findViewById(R.id.activity_list);
         ButterKnife.bind(this);
-        String[] datas = initDatas();
+        datas = initDatas();
+        classDatas = getClazzes();
         ArrayAdapter arrayAdapter = new ArrayAdapter(mContext, R.layout.item_listview, datas);
         activityList.setAdapter(arrayAdapter);
         activityList.setOnItemClickListener(this);
 
     }
 
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        if (position > datas.length) {
+            return;
+        }
+        goIntentActivity(classDatas[position]);
+
+    }
+
+    public abstract Class<?>[] getClazzes();
+
     protected abstract String[] initDatas();
 
     public void goIntentActivity(Class<?> clazz) {
-        Intent intent = new Intent(mContext,clazz);
+        Intent intent = new Intent(mContext, clazz);
         mContext.startActivity(intent);
     }
 

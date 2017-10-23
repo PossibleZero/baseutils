@@ -28,5 +28,10 @@ public class FrameActivity extends DemoBaseActivity {
 
     }
 
+    @Override
+    public Class<?>[] getClazzes() {
+        return clazzs;
+    }
+
 
 }

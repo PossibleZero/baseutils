@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.example.luckyzhang.baseutils.widget.TimerViewPage
+    <com.example.luckyzhang.baseutils.widget.CycleTimerViewPage
         android:id="@+id/viewpage"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

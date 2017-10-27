@@ -24,7 +24,7 @@ import java.util.List;
  * 设置自定义ViewPager
  */
 
-public class TimerViewPage extends LinearLayout {
+public class CycleTimerViewPage extends LinearLayout {
 
     private CycleViewPager mCycleViewPager;
     private LinearLayout mViewGroup; //底部的滚动的圆点
@@ -32,15 +32,15 @@ public class TimerViewPage extends LinearLayout {
     private Context mContext;
     private int mImageIndex = 1; //图片滚动当前图片下标
 
-    public TimerViewPage(Context context) {
+    public CycleTimerViewPage(Context context) {
         this(context, null);
     }
 
-    public TimerViewPage(Context context, @Nullable AttributeSet attrs) {
+    public CycleTimerViewPage(Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public TimerViewPage(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public CycleTimerViewPage(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         initView(context);
     }

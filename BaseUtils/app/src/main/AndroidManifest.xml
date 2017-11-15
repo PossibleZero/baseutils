@@ -56,7 +56,8 @@
         <activity android:name=".ui.activity.annotation.IntDefAnnotationActivity" />
         <activity android:name=".ui.activity.newskills.PagerActivity" />
         <activity android:name=".ui.activity.newskills.SkillsActivity" />
-        <activity android:name=".ui.activity.newskills.TimerPagerActivity"></activity>
+        <activity android:name=".ui.activity.newskills.TimerPagerActivity" />
+        <activity android:name=".ui.activity.newskills.PropertyActivity"></activity>
     </application>
 
 </manifest>

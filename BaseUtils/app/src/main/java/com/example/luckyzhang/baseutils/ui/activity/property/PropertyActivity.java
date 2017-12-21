@@ -1,4 +1,4 @@
-package com.example.luckyzhang.baseutils.ui.activity.newskills;
+package com.example.luckyzhang.baseutils.ui.activity.property;
 
 import android.animation.ObjectAnimator;
 import android.os.Bundle;

@@ -57,7 +57,9 @@
         <activity android:name=".ui.activity.newskills.PagerActivity" />
         <activity android:name=".ui.activity.newskills.SkillsActivity" />
         <activity android:name=".ui.activity.newskills.TimerPagerActivity" />
-        <activity android:name=".ui.activity.newskills.PropertyActivity"></activity>
+        <activity android:name=".ui.activity.property.PropertyActivity" />
+        <activity android:name=".ui.activity.newskills.ShadowActivity" />
+        <activity android:name=".ui.activity.property.PropertyListActivity"></activity>
     </application>
 
 </manifest>

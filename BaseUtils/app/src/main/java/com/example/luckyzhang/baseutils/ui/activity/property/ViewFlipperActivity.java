@@ -21,7 +21,7 @@ public class ViewFlipperActivity extends AppCompatActivity implements View.OnCli
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_flipper);
         viewFlipper = (ViewFlipper) findViewById(R.id.viewflpper);
-//        viewFlipper.setFlipInterval(500);
+        viewFlipper.setFlipInterval(1000);
         textView = (TextView) findViewById(R.id.tv2);
         button = (Button) findViewById(R.id.btn1);
         button.setOnClickListener(this);
@@ -38,7 +38,7 @@ public class ViewFlipperActivity extends AppCompatActivity implements View.OnCli
                     public void run() {
                         viewFlipper.stopFlipping();
                     }
-                }, 6500);
+                }, 2000);
                 break;
         }
     }

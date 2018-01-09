@@ -61,5 +61,11 @@
             android:text="测试" />
     </LinearLayout>
 
+    <com.example.luckyzhang.baseutils.ui.activity.property.ViewFlipperWidget
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" />
+
 
 </LinearLayout>
